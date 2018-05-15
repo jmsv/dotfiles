@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 
-dotfiles=(".vimrc" ".zshrc" ".gitconfig" ".profile")
-dir="${HOME}/gitr/dotfiles"
+# Update dotfiles from HOME
 
-# Link dotfiles to home directory
+dotfiles=(".vimrc" ".zshrc" ".gitconfig" ".profile")
+
+# Copy into dotfiles repo
 for dotfile in "${dotfiles[@]}";do
- ln -sf "${HOME}/${dotfile}" "${dir}"
+    cp "${HOME}/${dotfile}" .
 done
 

@@ -1,1 +1,20 @@
-/home/james/.gitconfig
+[user]
+	name = James Vickery
+	email = dev@jamesvickery.net
+[alias]
+	s = status
+	a = add
+	aa = add -A
+	ci = commit
+	cim = commit -m
+	ciam = commit -a -m
+	up = push
+	down = pull
+	po = push origin
+	pom = push origin master
+	updatesubs = submodule foreach git pull origin master
+	diffc = diff --cached
+[core]
+	editor = vim
+[push]
+	default = simple
