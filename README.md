@@ -1,6 +1,5 @@
 # dotfiles
 dotfiles for my dev laptop(s)
 
-1. Clone into `~/gitr`
-2. `./link.sh`
-
+- To copy dotfiles to home directory and install zsh theme: `./install.sh`
+- To update repo dotfiles files from home: `./update.sh`
