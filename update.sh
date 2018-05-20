@@ -9,3 +9,5 @@ for dotfile in "${dotfiles[@]}";do
     cp "${HOME}/${dotfile}" .
 done
 
+cp ~/.oh-my-zsh/themes/jmsv.zsh-theme jmsv.zsh-theme 
+
