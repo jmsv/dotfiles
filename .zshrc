@@ -11,6 +11,8 @@ ZSH_THEME="jmsv" # based on steeef
 
 # Command auto-correction option
 ENABLE_CORRECTION="true"
+# Disable auto cd
+AUTO_CD="false"
 
 plugins=(
   git python pip node npm
