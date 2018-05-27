@@ -1,3 +1,6 @@
+# Dotnet dev
+export ASPNETCORE_Environment=Development
+
 # Aliases
 alias what='git status'
 alias cls='clear'
