@@ -17,6 +17,7 @@ alias dimly='xrandr --output eDP-1 --brightness'
 alias gits='git s'
 alias ok='echo -n'
 alias smile='em slightly_smiling'
+alias amimullvad='curl https://am.i.mullvad.net'
 
 # Add directories to PATH
 PATH="$HOME/bin:$HOME/.local/bin:$PATH"
