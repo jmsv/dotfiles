@@ -19,6 +19,8 @@ alias ok='echo -n'
 alias smile='em slightly_smiling'
 alias amimullvad='curl https://am.i.mullvad.net'
 alias nexus='~/Android/Sdk/emulator/emulator -avd Nexus_5X_API_27_x86'
+alias pe='pipenv'
+alias pes='pipenv shell'
 
 # Add directories to PATH
 PATH="$HOME/bin:$HOME/.local/bin:$PATH"
