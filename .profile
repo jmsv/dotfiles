@@ -18,6 +18,7 @@ alias gits='git s'
 alias ok='echo -n'
 alias smile='em slightly_smiling'
 alias amimullvad='curl https://am.i.mullvad.net'
+alias nexus='~/Android/Sdk/emulator/emulator -avd Nexus_5X_API_27_x86'
 
 # Add directories to PATH
 PATH="$HOME/bin:$HOME/.local/bin:$PATH"
@@ -28,6 +29,5 @@ export LANG=en_GB.UTF-8
 export LANGUAGE=en_GB.UTF-8
 
 # Java stuff
-export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
-export PATH=$PATH:/usr/lib/jvm/java-8-openjdk-amd64/bin
+export JAVA_HOME=/opt/android-studio/jre
 
