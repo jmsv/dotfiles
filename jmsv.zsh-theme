@@ -1,14 +1,5 @@
 # jmsv theme based on steeef
 
-# prompt style and colors based on Steve Losh's Prose theme:
-# http://github.com/sjl/oh-my-zsh/blob/master/themes/prose.zsh-theme
-#
-# vcs_info modifications from Bart Trojanowski's zsh prompt:
-# http://www.jukie.net/bart/blog/pimping-out-zsh-prompt
-#
-# git untracked files modification from Brian Carper:
-# http://briancarper.net/blog/570/git-info-in-your-zsh-prompt
-
 export VIRTUAL_ENV_DISABLE_PROMPT=1
 
 function virtualenv_info {
@@ -36,8 +27,7 @@ else
     limegreen="%F{green}"
 fi
 
-# enable VCS systems you use
-zstyle ':vcs_info:*' enable git svn
+zstyle ':vcs_info:*' enable git
 
 # check-for-changes can be really slow.
 # you should disable it, if you work with large repositories
@@ -97,6 +87,7 @@ function steeef_precmd {
 }
 add-zsh-hook precmd steeef_precmd
 
-PROMPT=$'%{$limegreen%}%n${PR_RST} %{$orange%}%~${PR_RST} $vcs_info_msg_0_$(virtualenv_info)
+PROMPT=$'
+%{$limegreen%}%n${PR_RST} %{$orange%}%~${PR_RST} $vcs_info_msg_0_$(virtualenv_info)
 $ '
 
