@@ -5,6 +5,7 @@
 	s = status
 	a = add
 	aa = add -A
+	co = checkout
 	ci = commit
 	cim = commit -m
 	ciam = commit -a -m
@@ -15,6 +16,8 @@
 	updatesubs = submodule foreach git pull origin master
 	diffc = diff --cached
 	fresh = clean -d -x -f
+	undocommit = reset HEAD~
+	undoci = undocommit
 [core]
 	editor = vim
 [push]
