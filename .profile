@@ -33,3 +33,8 @@ export LANGUAGE=en_GB.UTF-8
 # Java stuff
 export JAVA_HOME=/opt/android-studio/jre
 
+# Different node version support
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" --no-use # This loads nvm
+#[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+
