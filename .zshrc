@@ -10,15 +10,17 @@ ZSH_THEME="steeef"
 ZSH_THEME="jmsv" # based on steeef
 
 # Command auto-correction option
-ENABLE_CORRECTION="true"
+#ENABLE_CORRECTION="true"
 # Disable auto cd
 AUTO_CD="false"
 
 plugins=(
-  git python pip node npm
+  git python pip node npm zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
+
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE=fg=0
 
 # Profile aliases and stuff
 source ~/.profile
