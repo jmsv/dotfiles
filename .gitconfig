@@ -6,6 +6,7 @@
 	a = add
 	aa = add -A
 	co = checkout
+	com = checkout master
 	ci = commit
 	cim = commit -m
 	ciam = commit -a -m
