@@ -23,5 +23,5 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 cp jmsv.zsh-theme ~/.oh-my-zsh/themes/
 
 mkdir -p ~/.fonts
-mv fonts/* ~/.fonts/
+cp fonts/* ~/.fonts/
 
