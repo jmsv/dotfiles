@@ -8,6 +8,7 @@ ZSH_THEME="gitster"
 #ZSH_THEME="bira"
 ZSH_THEME="steeef"
 ZSH_THEME="jmsv" # based on steeef
+ZSH_THEME="spaceship"
 
 # Command auto-correction option
 #ENABLE_CORRECTION="true"
