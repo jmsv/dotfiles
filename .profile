@@ -35,11 +35,14 @@ export JAVA_HOME=/opt/android-studio/jre
 
 # Different node version support
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" --no-use # This loads nvm
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" --no-use
 #[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
 # Go stuff
-export PATH=$PATH:/home/james/.go/bin
-export GOPATH=/home/james/go
-export PATH=$PATH:/home/james/go/bin
+export PATH=$PATH:~/.go/bin
+export GOPATH=~/go
+export PATH=$PATH:~/go/bin
+
+# Haskell
+export PATH=$PATH:~/.cabal/bin:/opt/cabal/2.4/bin:/opt/ghc/7.8.4/bin
 
