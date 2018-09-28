@@ -4,6 +4,7 @@
 [alias]
 	s = status
 	a = add
+	b = branch
 	aa = add -A
 	co = checkout
 	com = checkout master
@@ -14,6 +15,8 @@
 	down = pull
 	po = push origin
 	pom = push origin master
+	getsubs = submodule update --init --recursive
+	mastersubs = submodule foreach git checkout master
 	updatesubs = submodule foreach git pull origin master
 	diffc = diff --cached
 	fresh = clean -d -x -f
@@ -23,9 +26,3 @@
 	editor = vim
 [push]
 	default = simple
-# Windows LFS Support
-#[filter "lfs"]
-#	required = true
-#	clean = git-lfs clean -- %f
-#	smudge = git-lfs smudge -- %f
-#	process = git-lfs filter-process
