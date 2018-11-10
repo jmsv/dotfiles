@@ -21,6 +21,9 @@ alias amimullvad='curl https://am.i.mullvad.net'
 alias nexus='~/Android/Sdk/emulator/emulator -avd Nexus_5X_API_27_x86'
 alias pe='pipenv'
 alias pes='pipenv shell'
+alias dcb='docker-compose build'
+alias dcu='docker-compose up -d'
+alias dcd='docker-compose down'
 
 # Add directories to PATH
 PATH="$HOME/bin:$HOME/.local/bin:$PATH"
@@ -35,7 +38,7 @@ export JAVA_HOME=/opt/android-studio/jre
 
 # Different node version support
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" --no-use
 #[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
 # Go stuff
