@@ -3,9 +3,8 @@ export ZSH=/home/james/.oh-my-zsh
 # Set theme (comment/uncomment to switch)
 #ZSH_THEME="evan"
 #ZSH_THEME="gitster"
-#ZSH_THEME="steeef"
-#ZSH_THEME="jmsv" # based on steeef
-ZSH_THEME="spaceship"
+ZSH_THEME="jmsv" # based on steeef
+#ZSH_THEME="spaceship"
 
 # Command auto-correction option
 #ENABLE_CORRECTION="true"
@@ -14,6 +13,10 @@ AUTO_CD="false"
 
 plugins=(
   git python pip node npm zsh-autosuggestions
+)
+
+plugins=(
+  git python pip node npm
 )
 
 source $ZSH/oh-my-zsh.sh
