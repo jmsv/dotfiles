@@ -29,8 +29,7 @@ fi
 
 zstyle ':vcs_info:*' enable git
 
-# check-for-changes can be really slow.
-# you should disable it, if you work with large repositories
+# disable this if working with large repos
 zstyle ':vcs_info:*:prompt:*' check-for-changes true
 
 # set formats
@@ -88,6 +87,6 @@ function steeef_precmd {
 add-zsh-hook precmd steeef_precmd
 
 PROMPT=$'
-%{$limegreen%}%n${PR_RST} %{$orange%}%~${PR_RST} $vcs_info_msg_0_$(virtualenv_info)
+%{$limegreen%}%n${PR_RST} : %{$hotpink%}%m${PR_RST} %{$orange%}%~${PR_RST} $vcs_info_msg_0_$(virtualenv_info)
 $ '
 
