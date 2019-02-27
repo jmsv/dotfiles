@@ -15,13 +15,13 @@ plugins=(
   git python pip node npm zsh-autosuggestions
 )
 
-plugins=(
-  git python pip node npm
-)
+#plugins=(
+#  git python pip node npm
+#)
 
 source $ZSH/oh-my-zsh.sh
 
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE=fg=0
+#ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE=fg=0
 
 # Profile aliases and stuff
 source ~/.profile
