@@ -1,0 +1,5 @@
+# Fix hard to read NTFS `ls` colour formatting
+export LS_COLORS='ow=01;36;40'
+
+# Point docker CLI to Windows Docker server
+export DOCKER_HOST=tcp://localhost:2375
