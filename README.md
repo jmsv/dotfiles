@@ -1,5 +1,8 @@
-# dotfiles
-dotfiles for my dev laptop(s)
+# :black_circle: dotfiles
+
+_Dotfiles, themes, n scripts for my dev PCs_
+
+---
 
 ## [`.gitconfig`](.gitconfig)
 
