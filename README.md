@@ -52,6 +52,7 @@ dotfiles for my dev laptop(s)
 ## [`install.sh`](install.sh)
 
 > Contains commands for installing stuff
+>
 > Don't run this as-is, copy-paste blocks from it
 
 - Makes vim swap directory
@@ -73,6 +74,7 @@ dotfiles for my dev laptop(s)
 ## [`update.sh`](update.sh)
 
 > Copies dotfiles back from home directory to update copies in git
+>
 > Not used much anymore
 
 ## [`wsl.conf`](wsl.conf)
