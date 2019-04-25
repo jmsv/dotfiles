@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+# Don't run this as a script - copy/paste parts that are needed
 
 # Make vim swap directory
 mkdir -p $HOME/.vim/swap/
@@ -7,8 +7,7 @@ mkdir -p $HOME/.vim/swap/
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim || true
 
 # Install dotfiles to HOME
-dotfiles=(".vimrc" ".zshrc" ".gitconfig" ".profile")
-# Copy into dotfiles repo
+dotfiles=(".vimrc" ".zshrc" ".gitconfig" ".profile", ".nvmlazy", ".aliases")
 for dotfile in "${dotfiles[@]}";do
     cp "./${dotfile}" $HOME/
 done
@@ -28,4 +27,3 @@ ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/the
 
 mkdir -p ~/.fonts
 cp fonts/* ~/.fonts/
-

@@ -11,13 +11,13 @@ ZSH_THEME="jmsv" # based on steeef
 # Disable auto cd
 AUTO_CD="false"
 
-plugins=(
-  git python pip node npm zsh-autosuggestions
-)
-
 #plugins=(
-#  git python pip node npm
+#  git python pip node npm zsh-autosuggestions
 #)
+
+plugins=(
+  git python pip node npm
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -25,4 +25,3 @@ source $ZSH/oh-my-zsh.sh
 
 # Profile aliases and stuff
 source ~/.profile
-

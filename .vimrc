@@ -44,4 +44,3 @@ filetype plugin indent on
 
 " $HOME/.vimrc
 set directory=$HOME/.vim/swap//
-

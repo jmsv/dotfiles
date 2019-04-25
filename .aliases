@@ -1,0 +1,38 @@
+#=== Generic
+alias hw='echo hello world'
+alias ff='firefox'
+alias nuke='rm -rf'
+alias ok='echo -n'
+alias smile='em slightly_smiling'
+# alias nexus='~/Android/Sdk/emulator/emulator -avd Nexus_5X_API_27_x86'
+
+#=== Python
+alias pe='pipenv'
+alias pes='pipenv shell'
+
+#=== git
+alias what='git status'
+alias gits='git s'
+
+#=== Docker
+alias d='docker'
+alias dps='docker ps'
+alias dc='docker-compose'
+alias dcps='docker-compose ps'
+alias dcb='docker-compose build'
+alias dcu='docker-compose up -d'
+alias dcd='docker-compose down'
+alias dcdv='docker-compose down -v'
+
+#=== Ubuntu
+alias openpls='xdg-open'
+alias inst='sudo apt-get install'
+alias dimly='xrandr --output eDP-1 --brightness'
+alias clip='xclip -sel clip'
+alias cpcd='echo $(echo -n "cd " && pwd) | clip'
+
+#=== Typos
+alias pyhton='python'
+alias mkae='make'
+alias 'cd..'='cd ..'
+alias cls='clear'
