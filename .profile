@@ -15,6 +15,11 @@ export LC_ALL=en_GB.UTF-8
 export LANG=en_GB.UTF-8
 export LANGUAGE=en_GB.UTF-8
 
+ENV=~/.env
+if test -f "$ENV"; then
+    source $ENV
+fi
+
 # # dotnet core dev
 # export ASPNETCORE_Environment=Development
 
