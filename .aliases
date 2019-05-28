@@ -6,12 +6,15 @@ alias ok='echo -n'
 alias smile='em slightly_smiling'
 # alias nexus='~/Android/Sdk/emulator/emulator -avd Nexus_5X_API_27_x86'
 
+#=== npm
+alias fnpm='rm -rf node_modules package-lock.json && npm i'
+
 #=== Python
 alias pe='pipenv'
 alias pes='pipenv shell'
 
 #=== git
-alias what='git status'
+alias what='ls && git status'
 alias gits='git s'
 
 #=== Docker
@@ -36,3 +39,6 @@ alias pyhton='python'
 alias mkae='make'
 alias 'cd..'='cd ..'
 alias cls='clear'
+
+alias 💯='git status'
+
