@@ -1,4 +1,4 @@
-export ZSH=/home/james/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set theme (comment/uncomment to switch)
 #ZSH_THEME="evan"
