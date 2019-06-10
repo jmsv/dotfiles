@@ -12,6 +12,9 @@ for dotfile in "${dotfiles[@]}";do
     cp "./${dotfile}" $HOME/
 done
 
+# Create home directory dotenv
+touch $HOME/.env
+
 # Install Vundle plugins
 vim +PluginInstall +qall
 
