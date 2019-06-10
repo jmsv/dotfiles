@@ -15,13 +15,17 @@
 	down = pull
 	po = push origin
 	pom = push origin master
+	f = fetch
+	fa = fetch --all
+	sub = submodule
+	subs = submodule
 	getsubs = submodule update --init --recursive
 	mastersubs = submodule foreach git checkout master
 	updatesubs = submodule foreach git pull origin master
 	diffc = diff --cached
 	fresh = clean -d -x -f
 	undocommit = reset HEAD~
-	undoci = undocommit
+	undoci = reset HEAD~
 [core]
 	editor = vim
 [push]
