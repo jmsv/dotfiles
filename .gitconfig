@@ -5,8 +5,10 @@
 	s = status
 	a = add
 	b = branch
+	ba = branch --all
 	aa = add -A
 	co = checkout
+	cob = checkout -b
 	com = checkout master
 	ci = commit
 	cim = commit -m
@@ -19,9 +21,10 @@
 	fa = fetch --all
 	sub = submodule
 	subs = submodule
-	getsubs = submodule update --init --recursive
-	mastersubs = submodule foreach git checkout master
-	updatesubs = submodule foreach git pull origin master
+	subf = submodule foreach
+	subinit = submodule update --init --recursive
+	subm = submodule foreach git checkout master
+	subpull = submodule foreach git pull
 	diffc = diff --cached
 	fresh = clean -d -x -f
 	undocommit = reset HEAD~
