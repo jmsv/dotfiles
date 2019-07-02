@@ -16,6 +16,7 @@ alias pes='pipenv shell'
 #=== git
 alias what='ls && git status'
 alias gits='git s'
+alias gitwsl='git config core.filemode false && git config core.autocrlf true'
 
 #=== Docker
 alias d='docker'
