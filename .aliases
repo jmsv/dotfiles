@@ -27,6 +27,7 @@ alias dcb='docker-compose build'
 alias dcu='docker-compose up -d'
 alias dcd='docker-compose down'
 alias dcdv='docker-compose down -v'
+alias dl='lazydocker'
 
 #=== Ubuntu
 alias openpls='xdg-open'

@@ -28,5 +28,8 @@ cp jmsv.zsh-theme ~/.oh-my-zsh/themes/
 git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
 ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
 
+# Install lazydocker
+curl https://raw.githubusercontent.com/jesseduffield/lazydocker/master/scripts/install_update_linux.sh | bash
+
 mkdir -p ~/.fonts
 cp fonts/* ~/.fonts/
