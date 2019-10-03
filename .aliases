@@ -4,10 +4,11 @@ alias ff='firefox'
 alias nuke='rm -rf'
 alias ok='echo -n'
 alias smile='em slightly_smiling'
-# alias nexus='~/Android/Sdk/emulator/emulator -avd Nexus_5X_API_27_x86'
 
 #=== npm
 alias fnpm='rm -rf node_modules package-lock.json && npm i'
+alias npmr='npm run'
+alias npmi='npm i'
 
 #=== Python
 alias pe='pipenv'
@@ -42,6 +43,4 @@ alias pyhton='python'
 alias mkae='make'
 alias 'cd..'='cd ..'
 alias cls='clear'
-
-alias 💯='git status'
 
