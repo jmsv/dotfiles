@@ -14,7 +14,7 @@ alias pe='pipenv'
 alias pes='pipenv shell'
 
 #=== git
-alias what='ls && git status'
+alias what='ls -la && git status'
 alias gits='git s'
 alias gitwsl='git config core.filemode false && git config core.autocrlf true'
 
@@ -25,6 +25,7 @@ alias dc='docker-compose'
 alias dcps='docker-compose ps'
 alias dcb='docker-compose build'
 alias dcu='docker-compose up -d'
+alias dcub='docker-compose up -d --build'
 alias dcd='docker-compose down'
 alias dcdv='docker-compose down -v'
 alias dl='lazydocker'
