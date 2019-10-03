@@ -19,6 +19,7 @@
 	pom = push origin master
 	f = fetch
 	fa = fetch --all
+	ch = cherry-pick
 	sub = submodule
 	subs = submodule
 	subf = submodule foreach
@@ -29,6 +30,7 @@
 	fresh = clean -d -x -f
 	undocommit = reset HEAD~
 	undoci = reset HEAD~
+	fuck = commit --amend
 [core]
 	editor = vim
 [push]
