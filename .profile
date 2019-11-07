@@ -1,8 +1,8 @@
 # Uncomment line below if using WSL
 source ~/.wsl
 
-# node version manager
-source ~/.nvmlazy
+# node version manager (no longer used)
+#source ~/.nvmlazy
 
 # Alias
 source ~/.aliases
