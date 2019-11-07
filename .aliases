@@ -6,6 +6,9 @@ alias ok='echo -n'
 alias smile='em slightly_smiling'
 
 #=== npm
+alias n='npm'
+alias nr='npm run'
+alias ni='npm i'
 alias fnpm='rm -rf node_modules package-lock.json && npm i'
 alias npmr='npm run'
 alias npmi='npm i'
@@ -15,7 +18,7 @@ alias pe='pipenv'
 alias pes='pipenv shell'
 
 #=== git
-alias what='ls -la && git status'
+alias what='pwd && ls -la && git status'
 alias gits='git s'
 alias gitwsl='git config core.filemode false && git config core.autocrlf true'
 

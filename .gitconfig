@@ -16,7 +16,6 @@
 	up = push
 	down = pull
 	po = push origin
-	pom = push origin master
 	f = fetch
 	fa = fetch --all
 	ch = cherry-pick
@@ -30,6 +29,7 @@
 	fresh = clean -d -x -f
 	undocommit = reset HEAD~
 	undoci = reset HEAD~
+	uci = reset HEAD~
 	fuck = commit --amend
 [core]
 	editor = vim
