@@ -1,8 +1,11 @@
 # Uncomment line below if using WSL
-source ~/.wsl
+# source ~/.wsl
 
-# node version manager (no longer used)
-#source ~/.nvmlazy
+# node version manager
+source ~/.nvmrc
+
+# node version manager (lazy load)
+# source ~/.nvmlazy
 
 # Alias
 source ~/.aliases

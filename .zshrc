@@ -16,7 +16,7 @@ AUTO_CD="false"
 #)
 
 plugins=(
-  git python pip node npm
+  git node npm
 )
 
 source $ZSH/oh-my-zsh.sh

@@ -1,5 +1,3 @@
-# not used anymore - adds too much startup time to zsh in WSL :'(
-
 # lazyload nvm
 # adapted from https://gist.github.com/fl0w/07ce79bd44788f647deab307c94d6922#file-lazynvm-sh
 
