@@ -7,7 +7,6 @@ if test -f "$NVMRC"; then
     source $NVMRC
 fi
 
-
 # node version manager (lazy load)
 # source ~/.nvmlazy
 
@@ -15,7 +14,7 @@ fi
 source ~/.aliases
 
 # Add bin directories to PATH
-PATH="$HOME/bin:$HOME/.local/bin:$PATH"
+PATH="$HOME/bin:$HOME/.local/bin:$PATH:$HOME/.deno/bin"
 
 # Language
 export LC_ALL=en_GB.UTF-8
