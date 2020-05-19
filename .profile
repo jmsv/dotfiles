@@ -1,8 +1,12 @@
 # Uncomment line below if using WSL
 # source ~/.wsl
 
-# node version manager
-source ~/.nvmrc
+# node version manager (if exists)
+NVMRC=~/.nvmrc
+if test -f "$NVMRC"; then
+    source $NVMRC
+fi
+
 
 # node version manager (lazy load)
 # source ~/.nvmlazy
