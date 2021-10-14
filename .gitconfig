@@ -32,6 +32,9 @@
 	undoci = reset HEAD~
 	uci = reset HEAD~
 	fuck = commit --amend
+	pullx = git stash && git pull && git stash pop
+	pushu = push -u
+	pushuo = push -u origin
 [core]
 	editor = vim
 [push]
