@@ -14,7 +14,7 @@ fi
 source ~/.aliases
 
 # Add bin directories to PATH
-PATH="$HOME/bin:$HOME/.local/bin:$PATH:$HOME/.deno/bin"
+PATH="$PATH:/usr/local/bin:$HOME/bin:$HOME/.local/bin:$HOME/Library/Python/3.9/bin/:$HOME/Library/Python/3.8/bin/:$HOME/.deno/bin"
 
 # Language
 export LC_ALL=en_GB.UTF-8
