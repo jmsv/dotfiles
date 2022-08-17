@@ -14,6 +14,7 @@
 	ci = commit
 	cim = commit -m
 	ciam = commit -a -m
+	rv = remote -v
 	up = push
 	down = pull
 	po = push origin
@@ -33,7 +34,7 @@
 	undoci = reset HEAD~
 	uci = reset HEAD~
 	fuck = commit --amend
-	pullx = git stash && git pull && git stash pop
+	pullx = !git stash && git pull && git stash pop
 	pushu = push -u
 	pushuo = push -u origin
 [core]
