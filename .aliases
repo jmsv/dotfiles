@@ -1,3 +1,8 @@
+#=== General-use
+alias notify='terminal-notifier -message -title "Terminal Notification!" -message'
+alias ff='firefox'
+alias ok='echo -n'
+
 #=== npm
 alias n='npm'
 alias nr='npm run'
@@ -5,6 +10,12 @@ alias ni='npm i'
 alias fnpm='rm -rf node_modules package-lock.json && npm i'
 alias npmr='npm run'
 alias npmi='npm i'
+alias y='yarn'
+alias yd='yarn dev'
+alias ys='yarn start'
+alias ya='yarn add'
+alias yt='yarn test'
+alias ytw='yarn test:watch'
 
 #=== Python
 alias pe='pipenv'
@@ -26,7 +37,9 @@ alias dcub='docker-compose up -d --build'
 alias dcd='docker-compose down'
 alias dcdv='docker-compose down -v'
 alias dl='lazydocker'
-alias kb='kubectl'
+
+#=== MacOS
+alias clip='xclip -sel clip'
 
 #=== Ubuntu
 alias openpls='xdg-open'
@@ -40,8 +53,8 @@ alias pyhton='python'
 alias mkae='make'
 alias 'cd..'='cd ..'
 alias cls='clear'
+alias nom='npm'
+alias yran='yarn'
 
-#=== Misc
-alias nuke='rm -rf'
-alias ok='echo -n'
-alias ports='sudo lsof -i -P | grep LISTEN'
+#=== Apps
+alias rider='open -na "Rider.app" --args "$@"'
