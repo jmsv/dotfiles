@@ -36,3 +36,10 @@ fi
 
 # # Haskell dev
 # export PATH=$PATH:~/.cabal/bin:/opt/cabal/2.4/bin:/opt/ghc/7.8.4/bin
+
+# Android Dev
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
