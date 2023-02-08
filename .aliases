@@ -1,5 +1,5 @@
 #=== General-use
-alias notify='terminal-notifier -message -title "Terminal Notification!" -message'
+alias notify='terminal-notifier -message -title "Terminal Notification" -message'
 alias ff='firefox'
 alias ok='echo -n'
 
@@ -16,6 +16,7 @@ alias ys='yarn start'
 alias ya='yarn add'
 alias yt='yarn test'
 alias ytw='yarn test:watch'
+alias yw='yarn workspace'
 
 #=== Python
 alias pe='pipenv'

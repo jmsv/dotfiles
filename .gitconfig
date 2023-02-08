@@ -37,7 +37,10 @@
 	pullx = !git stash && git pull && git stash pop
 	pushu = push -u
 	pushuo = push -u origin
+	chp = cherry-pick
 [core]
 	editor = vim
 [push]
 	default = simple
+[pull]
+	rebase = false
