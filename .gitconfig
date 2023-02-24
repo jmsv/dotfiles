@@ -4,7 +4,7 @@
 [alias]
 	s = status
 	a = add
-	b = branch
+	b = branch -vv
 	ba = branch --all
 	aa = add -A
 	co = checkout
@@ -29,7 +29,7 @@
 	subm = submodule foreach git checkout master
 	subpull = submodule foreach git pull
 	diffc = diff --cached
-	fresh = clean -d -x -f
+	fresh = clean -dxf
 	undocommit = reset HEAD~
 	undoci = reset HEAD~
 	uci = reset HEAD~
@@ -42,5 +42,12 @@
 	editor = vim
 [push]
 	default = simple
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[init]
+	defaultBranch = main
 [pull]
 	rebase = false

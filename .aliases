@@ -1,7 +1,6 @@
 #=== General-use
 alias notify='terminal-notifier -message -title "Terminal Notification" -message'
-alias ff='firefox'
-alias ok='echo -n'
+alias ports='sudo lsof -i -P | grep LISTEN'
 
 #=== npm
 alias n='npm'
@@ -11,11 +10,16 @@ alias fnpm='rm -rf node_modules package-lock.json && npm i'
 alias npmr='npm run'
 alias npmi='npm i'
 alias y='yarn'
+alias yb='yarn build'
 alias yd='yarn dev'
 alias ys='yarn start'
 alias ya='yarn add'
 alias yt='yarn test'
 alias ytw='yarn test:watch'
+alias yl='yarn lint'
+alias yf='yarn format'
+alias yr='yarn remove'
+alias yad='yarn add -D'
 alias yw='yarn workspace'
 
 #=== Python
@@ -38,16 +42,18 @@ alias dcub='docker-compose up -d --build'
 alias dcd='docker-compose down'
 alias dcdv='docker-compose down -v'
 alias dl='lazydocker'
+alias kb='kubectl'
 
 #=== MacOS
-alias clip='xclip -sel clip'
+alias clip='pbcopy'
+alias cpcd='echo $(echo -n "cd " && pwd) | clip'
 
 #=== Ubuntu
 alias openpls='xdg-open'
 alias inst='sudo apt-get install'
 alias dimly='xrandr --output eDP-1 --brightness'
-alias clip='xclip -sel clip'
-alias cpcd='echo $(echo -n "cd " && pwd) | clip'
+#alias clip='xclip -sel clip'
+#alias cpcd='echo $(echo -n "cd " && pwd) | clip'
 
 #=== Typos
 alias pyhton='python'
@@ -56,6 +62,3 @@ alias 'cd..'='cd ..'
 alias cls='clear'
 alias nom='npm'
 alias yran='yarn'
-
-#=== Apps
-alias rider='open -na "Rider.app" --args "$@"'
