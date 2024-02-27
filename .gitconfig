@@ -39,6 +39,9 @@
 	pushu = push -u
 	pushuo = push -u origin
 	chp = cherry-pick
+	st = stash
+	stu = stash -u
+	stp = stash pop
 [core]
 	editor = vim
 [push]
