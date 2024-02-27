@@ -9,7 +9,7 @@
 	aa = add -A
 	co = checkout
 	cob = checkout -b
-	com = checkout master
+	com = checkout main
 	cos = checkout staging
 	ci = commit
 	cim = commit -m
@@ -35,6 +35,7 @@
 	uci = reset HEAD~
 	fuck = commit --amend
 	pullx = !git stash && git pull && git stash pop
+	pom = pull origin main
 	pushu = push -u
 	pushuo = push -u origin
 	chp = cherry-pick
@@ -51,3 +52,8 @@
 	defaultBranch = main
 [pull]
 	rebase = false
+[checkout]
+	defaultRemote = origin
+[diff "lockb"]
+	textconv = bun
+	binary = true

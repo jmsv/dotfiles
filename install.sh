@@ -4,7 +4,7 @@
 mkdir -p $HOME/.vim/swap/
 
 # Clone Vundle (mirror)
-git clone git@github.com:jmsv/Vundle.vim.git ~/.vim/bundle/Vundle.vim || true
+git clone https://github.com/jmsv/Vundle.vim.git ~/.vim/bundle/Vundle.vim || true
 
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"

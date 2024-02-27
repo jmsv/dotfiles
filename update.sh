@@ -10,4 +10,3 @@ done
 
 # Update jmsv theme
 cp ~/.oh-my-zsh/themes/jmsv.zsh-theme .
-
