@@ -3,8 +3,8 @@
 # Make vim swap directory
 mkdir -p $HOME/.vim/swap/
 
-# Clone Vundle (mirror)
-git clone https://github.com/jmsv/Vundle.vim.git ~/.vim/bundle/Vundle.vim || true
+# Clone Vundle
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim || true
 
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
