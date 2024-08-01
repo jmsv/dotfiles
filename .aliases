@@ -2,6 +2,7 @@
 alias notify='terminal-notifier -message -title "Terminal Notification" -message'
 alias ports='sudo lsof -i -P | grep LISTEN'
 alias chrome='open -na "Google Chrome" --args --new-window ""'
+alias dl="curl -OL"
 
 #=== npm
 alias n='npm'
@@ -36,10 +37,16 @@ alias bad='bun a -D'
 alias bd='bun dev'
 alias bb='bun run build'
 alias bs='bun start'
-alias bt='bun test'
+alias bt='bun run test'
 alias bl='bun lint'
 alias bf='bun format'
 alias bu='bun update'
+alias br='bun run'
+#=== pnpm
+alias pn='pnpm'
+alias pni='pnpm i'
+alias pnd='pnpm dev'
+alias pnb='pnpm build'
 
 #=== Python
 alias pe='pipenv'
@@ -62,12 +69,12 @@ alias dcub='docker-compose up --build'
 alias dcudb='docker-compose up -d --build'
 alias dcd='docker-compose down'
 alias dcdv='docker-compose down -v'
-alias dl='lazydocker'
 alias kb='kubectl'
 
 #=== MacOS
 alias clip='pbcopy'
 alias cpcd='echo $(echo -n "cd " && pwd) | clip'
+alias tailscale="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
 
 #=== Ubuntu
 alias openpls='xdg-open'

@@ -1,6 +1,6 @@
 [user]
 	name = James Vickery
-	email = dev@jmsv.me
+	email = 14852491+jmsv@users.noreply.github.com
 [alias]
 	s = status
 	a = add
@@ -8,7 +8,7 @@
 	ba = branch --all
 	aa = add -A
 	co = checkout
-	cob = checkout -b
+	cb = checkout -b
 	com = checkout main
 	cos = checkout staging
 	ci = commit

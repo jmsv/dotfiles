@@ -19,12 +19,14 @@ if [[ $terminfo[colors] -ge 256 ]]; then
     purple="%F{135}"
     hotpink="%F{161}"
     limegreen="%F{118}"
+    gray="%F{244}"
 else
     turquoise="%F{cyan}"
     orange="%F{yellow}"
     purple="%F{magenta}"
     hotpink="%F{red}"
     limegreen="%F{green}"
+    gray="%F{gray}"
 fi
 
 zstyle ':vcs_info:*' enable git
@@ -78,5 +80,4 @@ add-zsh-hook precmd steeef_precmd
 
 PROMPT=$'
 %{$limegreen%}%n${PR_RST} : %{$hotpink%}%m${PR_RST} %{$orange%}%~${PR_RST} $vcs_info_msg_0_$(virtualenv_info)
-🔥  '
-
+🔥 '
