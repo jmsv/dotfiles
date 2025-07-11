@@ -45,9 +45,13 @@ alias bu='bun update'
 alias br='bun run'
 #=== pnpm
 alias pn='pnpm'
-alias pni='pnpm i'
-alias pnd='pnpm dev'
-alias pnb='pnpm build'
+alias p='pnpm'
+alias pi='pnpm i'
+alias pa='pnpm add'
+alias pad='pnpm add -D'
+alias pd='pnpm dev'
+alias pb='pnpm build'
+alias pt='pnpm test'
 
 #=== Python
 alias pe='pipenv'
