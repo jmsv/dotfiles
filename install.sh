@@ -11,7 +11,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 rm -f ~/.zshrc.pre-oh-my-zsh
 
 # Install dotfiles to HOME
-dotfiles=(".vimrc" ".zshrc" ".gitconfig" ".profile" ".nvmrc" ".aliases")
+dotfiles=(".vimrc" ".zshrc" ".gitconfig" ".profile" ".aliases" ".nvmrc" ".gitignore_global")
 for dotfile in "${dotfiles[@]}";do
     cp "./${dotfile}" $HOME/
 done

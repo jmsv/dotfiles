@@ -3,6 +3,7 @@ alias notify='terminal-notifier -message -title "Terminal Notification" -message
 alias ports='sudo lsof -i -P | grep LISTEN'
 alias chrome='open -na "Google Chrome" --args --new-window ""'
 alias dl="curl -OL"
+alias c="code"
 
 #=== npm
 alias n='npm'

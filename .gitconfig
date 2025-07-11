@@ -10,6 +10,7 @@
 	co = checkout
 	cb = checkout -b
 	com = checkout main
+	cod = checkout dev
 	cos = checkout staging
 	ci = commit
 	cim = commit -m

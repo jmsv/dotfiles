@@ -3,7 +3,7 @@
 set -x
 
 # Update dotfiles from HOME
-dotfiles=(".vimrc" ".zshrc" ".gitconfig" ".profile" ".aliases" ".nvmrc")
+dotfiles=(".vimrc" ".zshrc" ".gitconfig" ".profile" ".aliases" ".nvmrc" ".gitignore_global")
 for dotfile in "${dotfiles[@]}";do
     cp ${HOME}/${dotfile} .
 done
