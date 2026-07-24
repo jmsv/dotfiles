@@ -14,6 +14,7 @@
 	cos = checkout staging
 	ci = commit
 	cim = commit -m
+	cine = commit --no-edit
 	ciam = commit -a -m
 	rv = remote -v
 	up = push
@@ -30,6 +31,8 @@
 	subm = submodule foreach git checkout master
 	subpull = submodule foreach git pull
 	diffc = diff --cached
+	diffm = diff origin/main
+	diffmn = diff origin/main --name-only
 	fresh = clean -dxf
 	undocommit = reset HEAD~
 	undoci = reset HEAD~
@@ -43,10 +46,20 @@
 	st = stash
 	stu = stash -u
 	stp = stash pop
+	wt = worktree
+	wtl = worktree list
+	wta = "!f() { git fetch origin main && git worktree add \"$1\" -b \"$1\" origin/main --no-track; }; f"
+	wtad = "!f() { git fetch origin develop && git worktree add \"$1\" -b \"$1\" origin/develop --no-track; }; f"
+	wtco = "!f() { git fetch origin \"$1\" && git worktree add \"$1\" \"$1\"; }; f"
+	wtr = worktree remove
+	wtp = worktree prune
+	pub = !git push -u origin "$(git branch --show-current)"
+	pish = push
 [core]
 	editor = vim
 [push]
 	default = simple
+	autoSetupRemote = true
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f

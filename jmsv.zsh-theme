@@ -80,4 +80,4 @@ add-zsh-hook precmd steeef_precmd
 
 PROMPT=$'
 %{$limegreen%}%n${PR_RST} : %{$hotpink%}%m${PR_RST} %{$orange%}%~${PR_RST} $vcs_info_msg_0_$(virtualenv_info)
-🔥 '
+> '

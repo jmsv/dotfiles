@@ -4,6 +4,11 @@ alias ports='sudo lsof -i -P | grep LISTEN'
 alias chrome='open -na "Google Chrome" --args --new-window ""'
 alias dl="curl -OL"
 alias c="code"
+alias t='tmux'
+alias tn='tmux new -s'
+alias claude-quota="$HOME/.claude/quota.sh"
+alias cc='claude'
+alias ccr='claude --resume'
 
 #=== npm
 alias n='npm'
@@ -43,6 +48,7 @@ alias bl='bun lint'
 alias bf='bun format'
 alias bu='bun update'
 alias br='bun run'
+alias bul='bun update --interactive --latest'
 #=== pnpm
 alias pn='pnpm'
 alias p='pnpm'
@@ -65,15 +71,16 @@ alias what='pwd && ls -la && git status'
 #=== Docker
 alias d='docker'
 alias dps='docker ps'
-alias dc='docker-compose'
-alias dcps='docker-compose ps'
-alias dcb='docker-compose build'
-alias dcu='docker-compose up'
-alias dcud='docker-compose up -d'
-alias dcub='docker-compose up --build'
-alias dcudb='docker-compose up -d --build'
-alias dcd='docker-compose down'
-alias dcdv='docker-compose down -v'
+alias dc='docker compose'
+alias dcps='docker compose ps'
+alias dcb='docker compose build'
+alias dcu='docker compose up'
+alias dcud='docker compose up -d'
+alias dcub='docker compose up --build'
+alias dcudb='docker compose up -d --build'
+alias dcd='docker compose down'
+alias dcdu='docker compose down && docker compose up -d --build'
+alias dcdv='docker compose down -v'
 alias kb='kubectl'
 
 #=== MacOS
@@ -82,9 +89,9 @@ alias cpcd='echo $(echo -n "cd " && pwd) | clip'
 alias tailscale="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
 
 #=== Ubuntu
-alias openpls='xdg-open'
-alias inst='sudo apt-get install'
-alias dimly='xrandr --output eDP-1 --brightness'
+#alias openpls='xdg-open'
+#alias inst='sudo apt-get install'
+#alias dimly='xrandr --output eDP-1 --brightness'
 #alias clip='xclip -sel clip'
 #alias cpcd='echo $(echo -n "cd " && pwd) | clip'
 
